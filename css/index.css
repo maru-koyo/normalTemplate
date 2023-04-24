@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
+:root {
+  --sidePadding: 30px;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
+html *,
+html ::before,
+html ::after {
+  border-width: 0;
+  border-style: solid;
+  box-sizing: border-box;
+}
+html body {
+  margin: 0;
+  font-weight: 400;
+  font-family: "Noto Sans JP", sans-serif;
+}
+html body main {
+  display: block;
+}
+html body p,
+html body table,
+html body blockquote,
+html body address,
+html body pre,
+html body iframe,
+html body form,
+html body figure,
+html body dl {
+  margin: 0;
+}
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body h6 {
+  margin: 0;
+  font-weight: inherit;
+  font-size: inherit;
+}
+html body ul,
+html body ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html body dt {
+  font-weight: bold;
+}
+html body dd {
+  margin-left: 0;
+}
+html body hr {
+  clear: both;
+  height: 0;
+  margin: 0;
+  overflow: visible;
+  border-top-width: 1px;
+  box-sizing: content-box;
+  color: inherit;
+}
+html body address {
+  font-style: inherit;
+}
+html body a {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+html body b,
+html body strong {
+  font-weight: bolder;
+}
+html body small {
+  font-size: 100%;
+}
+html body sub,
+html body sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+html body sub {
+  bottom: -0.25em;
+}
+html body sup {
+  top: -0.5em;
+}
+html body svg,
+html body img,
+html body embed,
+html body object,
+html body iframe {
+  vertical-align: bottom;
+}
+html body button,
+html body input,
+html body optgroup,
+html body select,
+html body textarea {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  text-transform: inherit;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+html body [type=checkbox] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+       appearance: checkbox;
+}
+html body [type=radio] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+       appearance: radio;
+}
+html body button,
+html body [type=button],
+html body [type=reset],
+html body [type=submit] {
+  cursor: pointer;
+}
+html body button:disabled,
+html body [type=button]:disabled,
+html body [type=reset]:disabled,
+html body [type=submit]:disabled {
+  cursor: default;
+}
+html body :-moz-focusring {
+  outline: auto;
+}
+html body select:disabled {
+  opacity: inherit;
+}
+html body option {
+  padding: 0;
+}
+html body fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+html body progress {
+  vertical-align: baseline;
+}
+html body textarea {
+  overflow: auto;
+}
+html body [type=number]::-webkit-inner-spin-button,
+html body [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+html body [type=search] {
+  outline-offset: -2px;
+}
+html body [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+html body ::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+html body label[for] {
+  cursor: pointer;
+}
+html body details {
+  display: block;
+}
+html body summary {
+  display: list-item;
+}
+html body [contenteditable]:focus {
+  outline: auto;
+}
+html body table {
+  border-color: inherit;
+  border-collapse: collapse;
+}
+html body caption {
+  text-align: left;
+}
+html body td,
+html body th {
+  padding: 0;
+  vertical-align: top;
+}
+html body th {
+  font-weight: bold;
+  text-align: left;
+}
+
+.pcB {
+  display: block !important;
+}
+@media screen and (max-width: 768px) {
+  .pcB {
+    display: none !important;
+  }
+}
+
+.spB {
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .spB {
+    display: block !important;
+  }
+}
+
+.pcF {
+  display: flex !important;
+}
+@media screen and (max-width: 768px) {
+  .pcF {
+    display: none !important;
+  }
+}
+
+.spF {
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .spF {
+    display: flex !important;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 var(--sidePadding);
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+    padding: 0 0;
+  }
+}
+
+.imgWrap {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.imgWrap img {
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */
