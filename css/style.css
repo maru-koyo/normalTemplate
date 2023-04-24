@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
-:root {
-  --sidePadding: 30px;
-}
-
 html {
   line-height: 1.15;
   -webkit-tap-highlight-color: transparent;
@@ -221,6 +217,24 @@ html body th {
   }
 }
 
+.pcIB {
+  display: inline-block !important;
+}
+@media screen and (max-width: 768px) {
+  .pcIB {
+    display: none !important;
+  }
+}
+
+.spIB {
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  .spIB {
+    display: inline-block !important;
+  }
+}
+
 .pcF {
   display: flex !important;
 }
@@ -240,16 +254,9 @@ html body th {
 }
 
 .wrapper {
-  width: 100%;
+  width: 90%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 var(--sidePadding);
-}
-@media screen and (max-width: 768px) {
-  .wrapper {
-    width: 90%;
-    padding: 0 0;
-  }
 }
 
 .imgWrap {
@@ -258,4 +265,4 @@ html body th {
 }
 .imgWrap img {
   width: 100%;
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=style.css.map */
