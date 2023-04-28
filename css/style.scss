@@ -1,9 +1,13 @@
-@use 'information' as *;
+@use "information" as *;
 
 html {
-	body {
-		.item {
-			@include btn;
-		}
-	}
+  body {
+    .item {
+      $ggg: green;
+      width: 100px;
+      height: auto;
+
+      @include btn;
+    }
+  }
 }
