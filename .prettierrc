@@ -3,7 +3,7 @@
   "tabWidth": 2,
   "useTabs": false,
   "semi": true,
-  "singleQuote": false,
+  "singleQuote": true,
   "quoteProps": "as-needed",
   "trailingComma": "es5",
   "bracketSpacing": true,
@@ -15,5 +15,13 @@
   "vueIndentScriptAndStyle": false,
   "endOfLine": "lf",
   "embeddedLanguageFormatting": "auto",
-  "singleAttributePerLine": false
+  "singleAttributePerLine": false,
+  "overrides": [
+    {
+      "files": "*.xlsx",
+      "options": {
+        "parser": "none"
+      }
+    }
+  ]
 }
