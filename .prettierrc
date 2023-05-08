@@ -1,5 +1,6 @@
 {
   "printWidth": 100,
+<<<<<<< HEAD
   "trailingComma": "none",
   "tabWidth": 2,
   "semi": true,
@@ -10,4 +11,30 @@
   "arrowParens": "avoid",
   "htmlWhitespaceSensitivity": "strict",
   "singleAttributePerLine": false
+=======
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "quoteProps": "as-needed",
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "requirePragma": false,
+  "insertPragma": false,
+  "htmlWhitespaceSensitivity": "css",
+  "vueIndentScriptAndStyle": false,
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto",
+  "singleAttributePerLine": false,
+  "overrides": [
+    {
+      "files": "*.xlsx",
+      "options": {
+        "parser": "none"
+      }
+    }
+  ]
+>>>>>>> f2f14a2a5114a0aeff6332f7ba66569783eee75e
 }
