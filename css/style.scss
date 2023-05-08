@@ -1,9 +1,14 @@
 @use 'information' as *;
 
 html {
-	body {
-		.item {
-			@include btn;
-		}
-	}
+  body {
+    .item {
+      @include btn;
+      width: 100px;
+
+      @include break {
+        width: 100%;
+      }
+    }
+  }
 }
