@@ -13,8 +13,8 @@ html ::after {
 }
 html body {
   margin: 0;
-  font-weight: 400;
   font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
 }
 html body main {
   display: block;
@@ -42,9 +42,9 @@ html body h6 {
 }
 html body ul,
 html body ol {
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 html body dt {
   font-weight: bold;
@@ -55,18 +55,18 @@ html body dd {
 html body hr {
   clear: both;
   height: 0;
-  margin: 0;
   overflow: visible;
+  margin: 0;
   border-top-width: 1px;
-  box-sizing: content-box;
   color: inherit;
+  box-sizing: content-box;
 }
 html body address {
   font-style: inherit;
 }
 html body a {
-  background-color: transparent;
   color: inherit;
+  background-color: transparent;
   text-decoration: none;
 }
 html body b,
@@ -79,9 +79,9 @@ html body small {
 html body sub,
 html body sup {
   position: relative;
-  font-size: 75%;
   line-height: 0;
   vertical-align: baseline;
+  font-size: 75%;
 }
 html body sub {
   bottom: -0.25em;
@@ -101,15 +101,15 @@ html body input,
 html body optgroup,
 html body select,
 html body textarea {
+  vertical-align: middle;
   margin: 0;
   padding: 0;
   border-radius: 0;
-  background: transparent;
   color: inherit;
+  background: transparent;
   font: inherit;
   text-align: inherit;
   text-transform: inherit;
-  vertical-align: middle;
   -webkit-appearance: none;
   -moz-appearance: none;
        appearance: none;
@@ -191,8 +191,8 @@ html body caption {
 }
 html body td,
 html body th {
-  padding: 0;
   vertical-align: top;
+  padding: 0;
 }
 html body th {
   font-weight: bold;
@@ -268,25 +268,29 @@ html body th {
 }
 
 html body .item {
-  width: 100px;
-  height: auto;
   display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 240px;
+  height: 60px;
   justify-content: center;
   align-items: center;
-  max-width: 240px;
-  width: 100%;
-  height: 60px;
   border-radius: 30px;
-  color: #fff;
+  color: #ffffff;
   background: #e30303;
   font-size: 18px;
-  position: relative;
   transition: all 0.3s;
+  width: 100px;
 }
 @media screen and (max-width: 768px) {
   html body .item {
     max-width: 200px;
     height: 50px;
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html body .item {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

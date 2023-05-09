@@ -1,9 +1,5 @@
 {
   "syntax": "scss",
-<<<<<<< HEAD
-=======
-  "newline_between_rules": false,
->>>>>>> f2f14a2a5114a0aeff6332f7ba66569783eee75e
   "remove-empty-rulesets": false,
   "always-semicolon": true,
   "color-case": "lower",
@@ -22,10 +18,7 @@
   "space-after-opening-brace": "\n",
   "space-after-selector-delimiter": "",
   "space-before-selector-delimiter": "",
-<<<<<<< HEAD
   "newline_between_rules": false,
-=======
->>>>>>> f2f14a2a5114a0aeff6332f7ba66569783eee75e
   "space-before-closing-brace": "\n",
   "strip-spaces": true,
   "sort-order": [
@@ -34,10 +27,7 @@
       "$variable",
       "$import",
       "$extend",
-<<<<<<< HEAD
       "$include",
-=======
->>>>>>> f2f14a2a5114a0aeff6332f7ba66569783eee75e
       "display",
       "position",
       "top",
@@ -324,11 +314,7 @@
       "widows",
       "-webkit-box-decoration-break",
       "box-decoration-break",
-<<<<<<< HEAD
       "$include break"
-=======
-      "$include"
->>>>>>> f2f14a2a5114a0aeff6332f7ba66569783eee75e
     ]
   ]
 }

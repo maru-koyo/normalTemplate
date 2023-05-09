@@ -3,20 +3,11 @@
 html {
   body {
     .item {
-<<<<<<< HEAD
       @include btn;
       width: 100px;
-
       @include break {
         width: 100%;
       }
-=======
-      $ggg: green;
-      width: 100px;
-      height: auto;
-
-      @include btn;
->>>>>>> f2f14a2a5114a0aeff6332f7ba66569783eee75e
     }
   }
 }
