@@ -267,30 +267,6 @@ html body th {
   width: 100%;
 }
 
-html body .item {
-  display: flex;
-  position: relative;
-  width: 100%;
-  max-width: 240px;
-  height: 60px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
-  color: #ffffff;
-  background: #e30303;
-  font-size: 18px;
-  transition: all 0.3s;
-  width: 100px;
-}
-@media screen and (max-width: 768px) {
-  html body .item {
-    max-width: 200px;
-    height: 50px;
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 768px) {
-  html body .item {
-    width: 100%;
-  }
-}
+html body h1 {
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
